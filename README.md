@@ -5,6 +5,10 @@
 > MIL/SIL/HIL/CHIL verification, embedded systems, FPGA/RISC-V,
 > industrial IoT, and digital twins.
 
+## Scientific simulation, SysML and portfolio planning
+
+[RTESS-SIM-001: modular CAD, scientific models and SysML views](MBSE/requirements/scientific-simulation-sysml.md) · [Complexity, budgets and AI-assisted simulation plan](docs/planning/portfolio-complexity-budget-simulation.md). Documentation proposed on 2026-10-11; simulation execution and physical validation remain pending.
+
 ## Description and Context
 
 **jfxrtess / OpenTwin Physics-Driven AI for Real-Time Embedded Systems**
@@ -631,3 +635,4 @@ Interoperability · Reproducibility · Human Engineering Oversight**
 > hardware. Verify progressively through MIL, SIL, HIL and CHIL. Connect
 > embedded compute, EDA and industrial IoT through open interfaces.
 > Preserve every configuration and test result as engineering evidence.
+
