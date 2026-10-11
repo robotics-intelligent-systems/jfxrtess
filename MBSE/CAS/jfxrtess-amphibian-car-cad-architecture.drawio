@@ -1,124 +1,627 @@
-<mxfile host="Electron">
-  <diagram id="dS2ivrSAt2jwWP9LLMGI" name="JFXRTESS - Amphibian Sports Car CAD RE Architecture">
-    <mxGraphModel dx="2560" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-10T00:00:00Z" agent="JFXRTESS requirements refactor" version="31.4.2" type="device" compressed="false">
+  <diagram id="family-01" name="01 - CAD Context">
+    <mxGraphModel dx="1800" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1350" math="0" shadow="0" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-1" parent="1" style="rounded=1;fillColor=#0f172a;strokeColor=none;fontColor=#ffffff;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="JFXRTESS: High-Level Technical Specifications for CAD Requirements Engineering&#xa;System Concept: Autonomous Amphibious Sports Car" vertex="1">
-          <mxGeometry height="60" width="1080" x="40" y="20" as="geometry" />
+        <mxCell id="family-01-title" value="OpenTwin AM-S / AM-U6 | Concept scope and evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=30;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="35" width="1700" height="60" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#f8fafc;strokeColor=#475569;strokeWidth=2;fontStyle=1;fontSize=13;fontColor=#0f172a;" value="JFXRTESS Core CAD Engineering Scope &amp; Real-Time Embedded Systems Integration" vertex="1">
-          <mxGeometry height="1060" width="1080" x="40" y="100" as="geometry" />
+        <mxCell id="family-01-sub" value="Three CAD-directory concept images. Visual intent is not dimensional geometry, implemented software or verified performance." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="115" width="1700" height="75" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-3" parent="Fq3Adsn6-G3HRfRYr6Nj-2" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#eff6ff;strokeColor=#bfdbfe;strokeWidth=1;fontStyle=1;fontSize=12;fontColor=#1e40af;" value="1. Multi-Domain Requirements Ingestion (Amphibious Sports Car Domain)" vertex="1">
-          <mxGeometry height="180" width="1040" x="20" y="40" as="geometry" />
+        <mxCell id="family-01-footer" value="JFXRTESS | 2026-10-10 | Proposed requirements; no tests executed | 01 - CAD Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=16;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1285" width="1700" height="35" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-4" parent="Fq3Adsn6-G3HRfRYr6Nj-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Automotive &amp; Dynamics Domain&#xa;(High-Speed Suspension, Active Aerodynamics, Vectoring, Braking)" vertex="1">
-          <mxGeometry height="60" width="220" x="30" y="40" as="geometry" />
+        <mxCell id="c0" value="AM-S&lt;br&gt;Roadster concept&lt;br&gt;Land and water operation, occupant packaging and separate propulsion allocation.&lt;br&gt;&lt;br&gt;SOURCE&lt;br&gt;amphibious-sport-roadster.jpg&lt;br&gt;Git blob: bacdc5130772ae916d46ab5625f61b2b49701873" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1" link="../CAD/amphibious-sport-roadster.jpg">
+          <mxGeometry as="geometry" x="50" y="220" width="550" height="380" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-5" parent="Fq3Adsn6-G3HRfRYr6Nj-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Hydrodynamics &amp; Marine Domain&#xa;(Hull Displacement, Hydrofoils, Waterjet Thrusters, Buoyancy)" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="40" as="geometry" />
+        <mxCell id="need0" value="REQUIREMENTS TO DERIVE&lt;br&gt;Occupancy, dimensions, mass/CG, hull, drive clearances and operator-controlled mode policy." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="640" width="550" height="260" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-6" parent="Fq3Adsn6-G3HRfRYr6Nj-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Mode Transition Requirements&#xa;(Wheel Retraction, Hull Sealing, Intake/Exhaust Diverters, &lt;2s Switching)" vertex="1">
-          <mxGeometry height="60" width="230" x="530" y="40" as="geometry" />
+        <mxCell id="c1" value="AM-U6&lt;br&gt;Utility concept&lt;br&gt;Six-wheel proposal, secured cargo, load-dependent CG and waterline.&lt;br&gt;&lt;br&gt;SOURCE&lt;br&gt;deeper-vehicle-immersion-in water-mode.jpg&lt;br&gt;Git blob: f0585fc25a9e59fd6bb3803453cdba7cd0afa8c9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1" link="../CAD/deeper-vehicle-immersion-in water-mode.jpg">
+          <mxGeometry as="geometry" x="620" y="220" width="550" height="380" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-7" parent="Fq3Adsn6-G3HRfRYr6Nj-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="JFXRTESS Constraints&#xa;(JavaFX Real-Time CAD Rendering, Hard RT Latency &lt;10ms, Java 17+)" vertex="1">
-          <mxGeometry height="60" width="230" x="780" y="40" as="geometry" />
+        <mxCell id="need1" value="REQUIREMENTS TO DERIVE&lt;br&gt;Payload/restraints, axle/steering allocation, load cases, flooded stability and service access." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="640" width="550" height="260" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-8" parent="Fq3Adsn6-G3HRfRYr6Nj-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2563eb;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="CAD Topology &amp; Geometry Data&#xa;(STEP, IGES, STL, Mass Properties, Center of Gravity Dynamics)" vertex="1">
-          <mxGeometry height="50" width="480" x="280" y="115" as="geometry" />
+        <mxCell id="c2" value="AM-B&lt;br&gt;Motorcycle concept&lt;br&gt;Single-rider proposal, balance and wet boundaries; detailed AM-01..16 baseline retained.&lt;br&gt;&lt;br&gt;SOURCE&lt;br&gt;amphibious-motorcycle-concept.jpg&lt;br&gt;Git blob: 76f4d432fb1597ee936cccc1c2860456522b484b" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1" link="../CAD/amphibious-motorcycle-concept.jpg">
+          <mxGeometry as="geometry" x="1190" y="220" width="550" height="380" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-9" parent="Fq3Adsn6-G3HRfRYr6Nj-2" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#f0fdf4;strokeColor=#bbf7d0;strokeWidth=1;fontStyle=1;fontSize=12;fontColor=#166534;" value="2. Requirements Engineering Processing &amp; CAD Analysis Engine" vertex="1">
-          <mxGeometry height="190" width="1040" x="20" y="240" as="geometry" />
+        <mxCell id="need2" value="REQUIREMENTS TO DERIVE&lt;br&gt;Rider load/posture, mode guards, immersion and fault policy; electric architecture remains a proposal." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1190" y="640" width="550" height="260" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-10" parent="Fq3Adsn6-G3HRfRYr6Nj-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#16a34a;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Elicitation &amp; Boundary Analysis&#xa;Mode Transitions &amp; Multi-Physics Models" vertex="1">
-          <mxGeometry height="60" width="220" x="30" y="45" as="geometry" />
+        <mxCell id="limits" value="SOURCE LIMIT&lt;br&gt;No dimensioned CAD, measured prototype, hydrofoil/retraction mechanism, autonomy requirement or certified ingress rating exists in this source baseline. Resolve D01-D12; do not scale geometry or performance from pixels." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3DA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=23;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="950" width="1700" height="220" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-11" parent="Fq3Adsn6-G3HRfRYr6Nj-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#16a34a;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Technical Specification Contracts&#xa;Kinematics, Power Transmission &amp; Seal Mechanics" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="45" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="family-02" name="02 - Shared Requirements">
+    <mxGraphModel dx="1800" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="family-02-title" value="OpenTwin family | Shared high-level requirements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=30;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="35" width="1700" height="60" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-12" parent="Fq3Adsn6-G3HRfRYr6Nj-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#16a34a;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Verification &amp; Safety Interlocks&#xa;IP68 Water Ingress Tests &amp; Structural Safety" vertex="1">
-          <mxGeometry height="60" width="230" x="530" y="45" as="geometry" />
+        <mxCell id="family-02-sub" value="RT-01..RT-12 are proposed system requirements. Approval needs a parameter baseline and acceptance evidence." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="115" width="1700" height="75" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-13" parent="Fq3Adsn6-G3HRfRYr6Nj-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#15803d;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="CAD Geometry Processing &amp; Mesh Optimization Pipeline&#xa;(B-Rep, Triangulation, Collision Bounds, Hydrodynamic Surface Meshing)" vertex="1">
-          <mxGeometry height="120" width="230" x="780" y="45" as="geometry" />
+        <mxCell id="family-02-footer" value="JFXRTESS | 2026-10-10 | Proposed requirements; no tests executed | 02 - Shared Requirements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=16;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1335" width="1700" height="35" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-14" parent="Fq3Adsn6-G3HRfRYr6Nj-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#16a34a;strokeWidth=1.5;fontColor=#0f172a;fontStyle=1;fontSize=10;" value="Automated Requirement-to-CAD Traceability Matrix (JavaFX UI Binding)" vertex="1">
-          <mxGeometry height="45" width="480" x="150" y="120" as="geometry" />
+        <mxCell id="RT-01" value="RT-01 | Configuration baseline&lt;br&gt;&lt;br&gt;The project shall identify concept variant, source hash, geometry, mass and CG baseline for each accepted load case.&lt;br&gt;&lt;br&gt;Owner: CAD / configuration&lt;br&gt;Verify: Inspection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="220" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-15" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-9" source="Fq3Adsn6-G3HRfRYr6Nj-10" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#16a34a;strokeWidth=2;" target="Fq3Adsn6-G3HRfRYr6Nj-11" />
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-16" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-9" source="Fq3Adsn6-G3HRfRYr6Nj-11" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#16a34a;strokeWidth=2;" target="Fq3Adsn6-G3HRfRYr6Nj-12" />
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-17" parent="Fq3Adsn6-G3HRfRYr6Nj-2" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#fff7ed;strokeColor=#fed7aa;strokeWidth=1;fontStyle=1;fontSize=12;fontColor=#9a3412;" value="3. JFXRTESS CAD Subsystems Architecture (Amphibian Sports Car Module)" vertex="1">
-          <mxGeometry height="340" width="1040" x="20" y="450" as="geometry" />
+        <mxCell id="RT-02" value="RT-02 | Land mobility&lt;br&gt;&lt;br&gt;Each variant shall demonstrate operator-controlled steering, traction and braking within its approved land envelope.&lt;br&gt;&lt;br&gt;Owner: Vehicle dynamics&lt;br&gt;Verify: Analysis + controlled test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="220" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-18" parent="Fq3Adsn6-G3HRfRYr6Nj-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ea580c;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="JavaFX 3D CAD Visualizer&#xa;(Real-time Rendering, Interactive Assembly View, Mode Switching Anims)" vertex="1">
-          <mxGeometry height="80" width="220" x="30" y="50" as="geometry" />
+        <mxCell id="RT-03" value="RT-03 | Buoyancy and stability&lt;br&gt;&lt;br&gt;Each hull shall meet approved loaded freeboard, stability and defined flooded-condition criteria.&lt;br&gt;&lt;br&gt;Owner: Naval / mechanical&lt;br&gt;Verify: Hydrostatic analysis + supervised test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1190" y="220" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-19" parent="Fq3Adsn6-G3HRfRYr6Nj-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ea580c;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Amphibious Kinematics Engine&#xa;(Wheel Retraction Mechanics, Steering Linkage, Hydrofoil Deployment)" vertex="1">
-          <mxGeometry height="80" width="220" x="280" y="50" as="geometry" />
+        <mxCell id="RT-04" value="RT-04 | Marine propulsion&lt;br&gt;&lt;br&gt;Marine propulsion shall be enabled only within its validated immersion and actuator-availability envelope.&lt;br&gt;&lt;br&gt;Owner: Marine / controls&lt;br&gt;Verify: MIL + bench + supervised test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="485" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-20" parent="Fq3Adsn6-G3HRfRYr6Nj-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ea580c;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Dual Powertrain Manager&#xa;(Electric Drive / Internal Combustion &lt;--&gt; Waterjet Propulsion Switch)" vertex="1">
-          <mxGeometry height="80" width="220" x="540" y="50" as="geometry" />
+        <mxCell id="RT-05" value="RT-05 | Mode transitions&lt;br&gt;&lt;br&gt;A local supervisor shall authorize LAND, TRANSITION and WATER using operator intent and validated guards.&lt;br&gt;&lt;br&gt;Owner: Controls&lt;br&gt;Verify: MIL / SIL / controller-HIL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="485" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-21" parent="Fq3Adsn6-G3HRfRYr6Nj-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ea580c;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Environment &amp; Water Sensor Drivers&#xa;(Sonar, Water Level Interlocks, Hull Pressure, Depth Sensor, IMU)" vertex="1">
-          <mxGeometry height="80" width="220" x="790" y="50" as="geometry" />
+        <mxCell id="RT-06" value="RT-06 | Energy and ingress&lt;br&gt;&lt;br&gt;The design shall define energy isolation, thermal limits, ingress monitoring and charge/service propulsion interlocks.&lt;br&gt;&lt;br&gt;Owner: Electrical&lt;br&gt;Verify: Inspection + bench fault injection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1190" y="485" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-22" parent="Fq3Adsn6-G3HRfRYr6Nj-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#c2410c;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Co-Simulation Bridge&#xa;(CFD Aerodynamics / Hydrodynamics &amp; FEA Stress Analysis Validation)" vertex="1">
-          <mxGeometry height="60" width="350" x="150" y="160" as="geometry" />
+        <mxCell id="RT-07" value="RT-07 | Fault and timing policy&lt;br&gt;&lt;br&gt;The supervisor shall meet allocated execution deadlines and mode-specific hazard-derived fault-response times.&lt;br&gt;&lt;br&gt;Owner: Embedded / safety&lt;br&gt;Verify: SIL / target controller-HIL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="750" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-23" parent="Fq3Adsn6-G3HRfRYr6Nj-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#c2410c;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Hard Real-Time Embedded Scheduler (RTOS Bridge)&#xa;(Safety Critical Task Loop, &lt;1ms Transition State Controller)" vertex="1">
-          <mxGeometry height="60" width="470" x="540" y="160" as="geometry" />
+        <mxCell id="RT-08" value="RT-08 | Local authority&lt;br&gt;&lt;br&gt;Essential control and fault handling shall remain local during loss of engineering, cloud or telemetry connections.&lt;br&gt;&lt;br&gt;Owner: Embedded / integration&lt;br&gt;Verify: Disconnect and permission test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="750" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-24" parent="Fq3Adsn6-G3HRfRYr6Nj-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;strokeWidth=2;fontColor=#78350f;fontStyle=1;fontSize=11;" value="JFXRTESS CAD Parser &amp; Asset Repository (`/cad/amphibian_sports_car/`)" vertex="1">
-          <mxGeometry height="60" width="480" x="280" y="250" as="geometry" />
+        <mxCell id="RT-09" value="RT-09 | Coupled-model contract&lt;br&gt;&lt;br&gt;Land and water models shall share configuration, SI units, frames and a declared clock/solver owner for each coupled state.&lt;br&gt;&lt;br&gt;Owner: Simulation&lt;br&gt;Verify: Interface test + model comparison" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1190" y="750" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-25" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-17" source="Fq3Adsn6-G3HRfRYr6Nj-18" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#ea580c;strokeWidth=2;" target="Fq3Adsn6-G3HRfRYr6Nj-19" />
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-26" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-17" source="Fq3Adsn6-G3HRfRYr6Nj-19" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#ea580c;strokeWidth=2;" target="Fq3Adsn6-G3HRfRYr6Nj-20" />
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-27" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-17" source="Fq3Adsn6-G3HRfRYr6Nj-20" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#ea580c;strokeWidth=2;" target="Fq3Adsn6-G3HRfRYr6Nj-21" />
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-28" parent="Fq3Adsn6-G3HRfRYr6Nj-2" style="swimlane;whiteSpace=wrap;html=1;startSize=25;fillColor=#faf5ff;strokeColor=#e9d5ff;strokeWidth=1;fontStyle=1;fontSize=12;fontColor=#6b21a8;" value="4. Verification, CAD Artifacts &amp; Real-Time Testing" vertex="1">
-          <mxGeometry height="220" width="1040" x="20" y="810" as="geometry" />
+        <mxCell id="RT-10" value="RT-10 | Telemetry and evidence&lt;br&gt;&lt;br&gt;Test records shall preserve timestamps, validity, source versions, configuration and requirement/test references.&lt;br&gt;&lt;br&gt;Owner: Data / verification&lt;br&gt;Verify: Schema + replay + audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1015" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-29" parent="Fq3Adsn6-G3HRfRYr6Nj-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a855f7;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="CAD Models &amp; Assemblies&#xa;`amphibian_body.step`&#xa;`wheel_retraction_gear.step`&#xa;`waterjet_impeller.step`" vertex="1">
-          <mxGeometry height="85" width="220" x="30" y="50" as="geometry" />
+        <mxCell id="RT-11" value="RT-11 | Maintainability&lt;br&gt;&lt;br&gt;Each variant shall define service isolation, hull/drivetrain access, drainage and post-service integrity checks.&lt;br&gt;&lt;br&gt;Owner: Service / mechanical&lt;br&gt;Verify: Inspection + demonstration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="1015" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-30" parent="Fq3Adsn6-G3HRfRYr6Nj-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a855f7;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Automated CAD Kinematic Tests&#xa;(TestFX UI Tests, Motion Range, Clearance Checks)" vertex="1">
-          <mxGeometry height="85" width="220" x="280" y="50" as="geometry" />
+        <mxCell id="RT-12" value="RT-12 | Stage release&lt;br&gt;&lt;br&gt;Each stage shall close critical design decisions and approve operating envelope, configuration and verification dispositions.&lt;br&gt;&lt;br&gt;Owner: Systems engineering&lt;br&gt;Verify: Review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1190" y="1015" width="550" height="245" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-31" parent="Fq3Adsn6-G3HRfRYr6Nj-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a855f7;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="SRS &amp; Architectural Decision Records&#xa;(ISO 26262 Functional Safety, Amphibious Regulations ISO 12215)" vertex="1">
-          <mxGeometry height="85" width="220" x="540" y="50" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="family-03" name="03 - Variant Allocation">
+    <mxGraphModel dx="1800" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="family-03-title" value="OpenTwin family | Variant allocation and AM-B crosswalk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=30;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="35" width="1700" height="60" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-32" parent="Fq3Adsn6-G3HRfRYr6Nj-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a855f7;strokeWidth=2;fontColor=#0f172a;fontStyle=1;fontSize=11;" value="Hardware-in-the-Loop (HIL) Bench&#xa;(Actuator Response, Water Ingress Interlock Test Bench)" vertex="1">
-          <mxGeometry height="85" width="220" x="790" y="50" as="geometry" />
+        <mxCell id="family-03-sub" value="Common requirements apply to all three concepts; variant requirements refine distinct physical questions." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="115" width="1700" height="75" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-33" parent="Fq3Adsn6-G3HRfRYr6Nj-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#7e22ce;strokeWidth=2;fontColor=#581c87;fontStyle=1;fontSize=11;" value="Deployment Target: JFXRTESS Execution &amp; CAD Viewer Runtime Package" vertex="1">
-          <mxGeometry height="50" width="480" x="280" y="150" as="geometry" />
+        <mxCell id="family-03-footer" value="JFXRTESS | 2026-10-10 | Proposed requirements; no tests executed | 03 - Variant Allocation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=16;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1335" width="1700" height="35" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-34" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-2" source="Fq3Adsn6-G3HRfRYr6Nj-6" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#64748b;strokeWidth=2;entryX=0.5;entryY=0;" target="Fq3Adsn6-G3HRfRYr6Nj-10">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="S-01" value="S-01 | Roadster packaging&lt;br&gt;&lt;br&gt;The AM-S baseline shall define occupant/restraint space and enclosure/hull packaging from a dimensioned design.&lt;br&gt;Verify: CAD inspection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="220" width="840" height="225" />
+        </mxCell>
+        <mxCell id="S-02" value="S-02 | Roadster drivetrain allocation&lt;br&gt;&lt;br&gt;AM-S shall document separate land/marine drive allocation and transition clearances for its selected configuration.&lt;br&gt;Verify: Analysis + MIL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="910" y="220" width="840" height="225" />
+        </mxCell>
+        <mxCell id="U6-01" value="U6-01 | Utility load cases&lt;br&gt;&lt;br&gt;AM-U6 shall define secured cargo and occupant load cases and their effect on mass, CG and waterline.&lt;br&gt;Verify: CAD + hydrostatic analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="465" width="840" height="225" />
+        </mxCell>
+        <mxCell id="U6-02" value="U6-02 | Utility running gear&lt;br&gt;&lt;br&gt;AM-U6 shall define six-wheel steering, braking, traction and load-sharing for the selected running-gear proposal.&lt;br&gt;Verify: Analysis + MIL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="910" y="465" width="840" height="225" />
+        </mxCell>
+        <mxCell id="B-01" value="B-01 | Motorcycle balance&lt;br&gt;&lt;br&gt;AM-B shall define rider posture, low-speed land balance and rider/vehicle stability through land-water transition.&lt;br&gt;Verify: Analysis + controlled test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="710" width="840" height="225" />
+        </mxCell>
+        <mxCell id="B-02" value="B-02 | Motorcycle wet boundaries&lt;br&gt;&lt;br&gt;AM-B shall define rider exposure, immersion-sensitive components and service access for the selected hull/propulsor design.&lt;br&gt;Verify: Inspection + ingress/immersion test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=21;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="910" y="710" width="840" height="225" />
+        </mxCell>
+        <mxCell id="amb-link" value="AM-B identifier preservation&lt;br&gt;RT-01: AM-01/13 | RT-02: AM-02 | RT-03: AM-03 | RT-04: AM-04 | RT-05: AM-05 | RT-06: AM-06&lt;br&gt;RT-07: AM-07/08 | RT-08: AM-09/12 | RT-09: AM-10 | RT-10: AM-11/14 | RT-11: AM-15 | RT-12: AM-13/14/16&lt;br&gt;Original AM-B P01-P18 and V01-V16 remain in its editable requirements file." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=23;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1000" width="1700" height="230" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="family-04" name="04 - Control and Model Interfaces">
+    <mxGraphModel dx="1800" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1350" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="family-04-title" value="OpenTwin family | Local control and engineering interfaces" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=30;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="35" width="1700" height="60" />
+        </mxCell>
+        <mxCell id="family-04-sub" value="Solid = local intent/control or approved build artifacts. Dashed = noncritical telemetry and analytical evidence. No remote actuator authority." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="115" width="1700" height="75" />
+        </mxCell>
+        <mxCell id="family-04-footer" value="JFXRTESS | 2026-10-10 | Proposed requirements; no tests executed | 04 - Control and Model Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=16;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1285" width="1700" height="35" />
+        </mxCell>
+        <mxCell id="operator" value="I-01 | Operator intent&lt;br&gt;Mode request, brake, acknowledge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="250" width="420" height="160" />
+        </mxCell>
+        <mxCell id="sensor" value="I-02 | Sensor guards&lt;br&gt;Age, validity, SI units, frame" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="620" width="420" height="170" />
+        </mxCell>
+        <mxCell id="local" value="Local supervisor&lt;br&gt;Mode + interlock + fault policy&lt;br&gt;Selected MCU / RTOS&lt;br&gt;RT-05..08" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="640" y="250" width="480" height="240" />
+        </mxCell>
+        <mxCell id="drive" value="I-03 | Drive adapters&lt;br&gt;Land / marine allocation&lt;br&gt;Local energy isolation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1330" y="250" width="420" height="200" />
+        </mxCell>
+        <mxCell id="model" value="I-04 | Plant/model runner&lt;br&gt;Approved CAD/load baseline&lt;br&gt;FMI profile and state ownership&lt;br&gt;OpenModelica / optional Gazebo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="640" y="620" width="480" height="210" />
+        </mxCell>
+        <mxCell id="bench" value="I-05 | Controller-HIL bench&lt;br&gt;I/O mapping, clock and load&lt;br&gt;Timing/fault traces&lt;br&gt;Separate test configuration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1330" y="620" width="420" height="210" />
+        </mxCell>
+        <mxCell id="registry" value="I-06 | Engineering registry&lt;br&gt;Models, config, evidence&lt;br&gt;Optional MQTT / Ditto / IoTDB&lt;br&gt;No actuator credential" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3DA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="640" y="980" width="1110" height="200" />
+        </mxCell>
+        <mxCell id="e1" value="Intent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#237A91;fontSize=16;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="operator" target="local">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" value="Guards" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#237A91;fontSize=16;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.1;entryY=1;" edge="1" parent="1" source="sensor" target="local">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="665" y="230" />
-              <mxPoint x="150" y="230" />
+              <mxPoint x="540" y="705" />
+              <mxPoint x="540" y="540" />
+              <mxPoint x="688" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-35" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-2" source="Fq3Adsn6-G3HRfRYr6Nj-11" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#64748b;strokeWidth=2;entryX=0.5;entryY=0;" target="Fq3Adsn6-G3HRfRYr6Nj-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e3" value="Enable / limit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#237A91;fontSize=16;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="local" target="drive">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-36" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-2" source="Fq3Adsn6-G3HRfRYr6Nj-18" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#64748b;strokeWidth=2;entryX=0.5;entryY=0;" target="Fq3Adsn6-G3HRfRYr6Nj-29">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="e4" value="Plant outputs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#237A91;fontSize=16;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="model" target="bench">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e5" value="Selected-state records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#237A91;fontSize=16;labelBackgroundColor=#FFFFFF;dashed=1;exitX=1;exitY=0.65;entryX=0.5;entryY=0;" edge="1" parent="1" source="local" target="registry">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="160" y="800" />
-              <mxPoint x="160" y="800" />
+              <mxPoint x="1195" y="406" />
+              <mxPoint x="1195" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fq3Adsn6-G3HRfRYr6Nj-37" edge="1" parent="Fq3Adsn6-G3HRfRYr6Nj-2" source="Fq3Adsn6-G3HRfRYr6Nj-21" style="edgeStyle=orthoEdgeStyle;rounded=0;html=1;strokeColor=#64748b;strokeWidth=2;entryX=0.5;entryY=0;" target="Fq3Adsn6-G3HRfRYr6Nj-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="920" y="800" />
-              <mxPoint x="920" y="800" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="e6" value="Test evidence" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#237A91;fontSize=16;labelBackgroundColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="bench" target="registry">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="family-05" name="05 - Verification Matrix">
+    <mxGraphModel dx="1800" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1660" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="family-05-title" value="OpenTwin family | Requirements-to-verification matrix" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=30;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="35" width="1700" height="60" />
+        </mxCell>
+        <mxCell id="family-05-sub" value="Verification is planned. Acceptance thresholds are owner-approved decisions, not values inferred from software or concept images." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="115" width="1700" height="75" />
+        </mxCell>
+        <mxCell id="family-05-footer" value="JFXRTESS | 2026-10-10 | Proposed requirements; no tests executed | 05 - Verification Matrix" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=16;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1595" width="1700" height="35" />
+        </mxCell>
+        <mxCell id="head0" value="ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="210" width="110" height="55" />
+        </mxCell>
+        <mxCell id="head1" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="210" width="240" height="55" />
+        </mxCell>
+        <mxCell id="head2" value="Method" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="210" width="345" height="55" />
+        </mxCell>
+        <mxCell id="head3" value="Acceptance evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="210" width="720" height="55" />
+        </mxCell>
+        <mxCell id="head4" value="Candidate tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="210" width="265" height="55" />
+        </mxCell>
+        <mxCell id="v00" value="RT-01" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="280" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v01" value="CAD / configuration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="280" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v02" value="Inspection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="280" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v03" value="Every model and run resolves to the same approved variant, source and load baseline." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="280" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v04" value="FreeCAD / registry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="280" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v10" value="RT-02" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="381" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v11" value="Vehicle dynamics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="381" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v12" value="Analysis + controlled test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="381" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v13" value="Stopping distance, grade and handling meet approved load/surface/speed criteria; values remain TBD." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="381" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v14" value="OpenModelica / land model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="381" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v20" value="RT-03" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="482" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v21" value="Naval / mechanical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="482" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v22" value="Hydrostatic analysis + supervised test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="482" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v23" value="Measured mass/CG and geometry satisfy approved heel, trim, reserve buoyancy and flooding criteria." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="482" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v24" value="FreeCAD / hydrostatics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="482" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v30" value="RT-04" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="583" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v31" value="Marine / controls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="583" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v32" value="MIL + bench + supervised test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="583" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v33" value="Invalid, stale or contradictory immersion evidence invokes the approved inhibit/limit policy." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="583" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v34" value="OpenModelica / marine adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="583" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v40" value="RT-05" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="684" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v41" value="Controls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="684" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v42" value="MIL / SIL / controller-HIL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="684" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v43" value="Allowed transitions are covered; ambiguous guards, timeout and bounded drive overlap follow the approved policy." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="684" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v44" value="Selected RTOS / test runner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="684" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v50" value="RT-06" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="785" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v51" value="Electrical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="785" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v52" value="Inspection + bench fault injection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="785" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v53" value="Approved electrical/thermal/ingress profiles and charge/service inhibits pass; ratings and thresholds remain TBD." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="785" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v54" value="KiCad / local controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="785" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v60" value="RT-07" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="886" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v61" value="Embedded / safety" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="886" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v62" value="SIL / target controller-HIL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="886" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v63" value="Timing and fault traces meet the approved load profile and response budgets; no deadline claimed from tool choice." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="886" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v64" value="Selected MCU/RTOS / trace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="886" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v70" value="RT-08" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="987" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v71" value="Embedded / integration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="987" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v72" value="Disconnect and permission test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="987" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v73" value="Local operation follows approved loss policy; remote analytics, UI and AI cannot publish actuator commands." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="987" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v74" value="Cyphal / local I/O" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="987" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v80" value="RT-09" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1088" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v81" value="Simulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="1088" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v82" value="Interface test + model comparison" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="1088" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v83" value="No duplicate state integration; handover, unit/frame and validity-domain checks meet approved error budgets." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="1088" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v84" value="FMI / OpenModelica / Gazebo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="1088" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v90" value="RT-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1189" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v91" value="Data / verification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="1189" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v92" value="Schema + replay + audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="1189" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v93" value="Mandatory fields and approved rate/buffer profiles pass; stale/reordered data are flagged and no verdict lacks evidence." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="1189" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v94" value="Registry / MQTT / optional store" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="1189" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v100" value="RT-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1290" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v101" value="Service / mechanical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="1290" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v102" value="Inspection + demonstration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="1290" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v103" value="Required service tasks and integrity checks are demonstrated against an approved procedure." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="1290" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v104" value="CAD / service plan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="1290" width="265" height="94" />
+        </mxCell>
+        <mxCell id="v110" value="RT-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1391" width="110" height="94" />
+        </mxCell>
+        <mxCell id="v111" value="Systems engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="1391" width="240" height="94" />
+        </mxCell>
+        <mxCell id="v112" value="Review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="1391" width="345" height="94" />
+        </mxCell>
+        <mxCell id="v113" value="No stage-critical TBD or failed criterion remains without an accepted disposition; no physical verification inferred from an image." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="760" y="1391" width="720" height="94" />
+        </mxCell>
+        <mxCell id="v114" value="Capella / evidence registry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1485" y="1391" width="265" height="94" />
+        </mxCell>
+        <mxCell id="var-ver" value="Variant verification: S-01/S-02, U6-01/U6-02 and B-01/B-02 have separate CAD, load, dynamics and wet-boundary acceptance rows in MBSE/requirements/amphibious-traceability.csv. Every verdict remains NOT EXECUTED." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3DA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1500" width="1700" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="family-06" name="06 - Decisions and Delivery">
+    <mxGraphModel dx="1800" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1700" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="family-06-title" value="OpenTwin family | Open decisions and delivery gates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=30;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="35" width="1700" height="60" />
+        </mxCell>
+        <mxCell id="family-06-sub" value="Resolve affected decisions before stage release. Requirements proposals and dependency priorities use separate status labels." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=19;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="115" width="1700" height="75" />
+        </mxCell>
+        <mxCell id="family-06-footer" value="JFXRTESS | 2026-10-10 | Proposed requirements; no tests executed | 06 - Decisions and Delivery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=16;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1635" width="1700" height="35" />
+        </mxCell>
+        <mxCell id="dh0" value="ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="210" width="100" height="55" />
+        </mxCell>
+        <mxCell id="dh1" value="Decision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="210" width="390" height="55" />
+        </mxCell>
+        <mxCell id="dh2" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="210" width="240" height="55" />
+        </mxCell>
+        <mxCell id="dh3" value="Requirement trace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="210" width="335" height="55" />
+        </mxCell>
+        <mxCell id="dh4" value="Required closure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10243A;strokeColor=#A8BBCC;fontColor=#FFFFFF;fontSize=18;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="210" width="605" height="55" />
+        </mxCell>
+        <mxCell id="d00" value="D01" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="280" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d01" value="Mission, operator and autonomy scope" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="280" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d02" value="Systems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="280" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d03" value="RT-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="280" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d04" value="Operator-controlled study baseline; autonomy requires separate scope." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="280" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d10" value="D02" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="372" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d11" value="Occupancy and cargo allowance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="372" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d12" value="Mechanical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="372" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d13" value="RT-01,S-01,U6-01,B-01" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="372" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d14" value="TBD persons/kg/distribution; AM-B single-rider baseline is provisional." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="372" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d20" value="D03" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="464" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d21" value="Dimensions, mass and CG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="464" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d22" value="CAD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="464" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d23" value="RT-01,RT-03" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="464" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d24" value="TBD m/kg and CG by load case; create actual CAD." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="464" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d30" value="D04" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="556" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d31" value="Land envelope" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="556" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d32" value="Dynamics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="556" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d33" value="RT-02" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="556" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d34" value="TBD speed/grade/surface/braking distance." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="556" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d40" value="D05" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="648" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d41" value="Water envelope and stability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="648" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d42" value="Naval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="648" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d43" value="RT-03,RT-04" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="648" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d44" value="TBD wind/waves/current/depth/freeboard/heel/trim." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="648" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d50" value="D06" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="740" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d51" value="Drive architecture and transitions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="740" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d52" value="Controls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="740" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d53" value="RT-04,RT-05,S-02,U6-02" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="740" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d54" value="TBD power, drive overlap, immersion guards; no assumed retraction." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="740" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d60" value="D07" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="832" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d61" value="Energy, isolation and ingress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="832" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d62" value="Electrical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="832" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d63" value="RT-06" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="832" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d64" value="TBD power/voltage/energy, enclosure profile and isolation limits." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="832" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d70" value="D08" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="924" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d71" value="Deadlines and fault response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="924" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d72" value="Embedded / safety" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="924" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d73" value="RT-07" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="924" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d74" value="TBD by task/hazard. AM-B 20 ms is an existing review target only." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="924" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d80" value="D09" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1016" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d81" value="Model coupling and fidelity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="1016" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d82" value="Simulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="1016" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d83" value="RT-09" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="1016" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d84" value="TBD FMI profile, step size, frames and per-variable error budgets." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="1016" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d90" value="D10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1108" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d91" value="Telemetry and offline retention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="1108" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d92" value="Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="1108" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d93" value="RT-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="1108" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d94" value="TBD by stream. AM-B 5 Hz / 30 min are existing review targets only." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="1108" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d100" value="D11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1200" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d101" value="Service and environment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="1200" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d102" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="1200" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d103" value="RT-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="1200" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d104" value="TBD corrosion, temperatures, inspection and integrity procedures." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="1200" width="605" height="85" />
+        </mxCell>
+        <mxCell id="d110" value="D12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1292" width="100" height="85" />
+        </mxCell>
+        <mxCell id="d111" value="Release evidence and applicable approval scope" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="155" y="1292" width="390" height="85" />
+        </mxCell>
+        <mxCell id="d112" value="Systems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="1292" width="240" height="85" />
+        </mxCell>
+        <mxCell id="d113" value="RT-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="795" y="1292" width="335" height="85" />
+        </mxCell>
+        <mxCell id="d114" value="TBD stage owners and approvals; no certification inferred." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F6FA;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=17;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1135" y="1292" width="605" height="85" />
+        </mxCell>
+        <mxCell id="gates" value="G0: scope + thresholds → G1: reproducible MIL → G2: SIL comparison → G3: controller-HIL timing and fault evidence → G4: controlled physical trials&lt;br&gt;CHIL is a HIL configuration. OpenFOAM CFD is offline coefficient/fidelity work; it is not assumed to meet a HIL deadline." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1410" width="1700" height="180" />
         </mxCell>
       </root>
     </mxGraphModel>
