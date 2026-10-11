@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mxfile host="app.diagrams.net" modified="2026-10-10T00:00:00Z" agent="JFXRTESS requirements refactor" version="31.4.2" type="device" compressed="false">
+<mxfile host="app.diagrams.net" modified="2026-10-11T00:00:00Z" agent="JFXRTESS requirements refactor" version="31.4.2" type="device" compressed="false">
   <diagram id="family-01" name="01 - CAD Context">
     <mxGraphModel dx="1800" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1350" math="0" shadow="0" background="#FFFFFF">
       <root>
@@ -622,6 +622,224 @@
         </mxCell>
         <mxCell id="gates" value="G0: scope + thresholds → G1: reproducible MIL → G2: SIL comparison → G3: controller-HIL timing and fault evidence → G4: controlled physical trials&lt;br&gt;CHIL is a HIL configuration. OpenFOAM CFD is offline coefficient/fidelity work; it is not assumed to meet a HIL deadline." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F4;strokeColor=#A8BBCC;fontColor=#10243A;fontSize=22;align=left;verticalAlign=middle;spacing=16;shadow=0;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="50" y="1410" width="1700" height="180" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rtess-sim-7" name="07 - Modular CAD BDD">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="07 - Modular CAD BDD — RTESS-SIM-001" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#DDEBF7;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="SysML 1.6 views approximated in Draw.io; proposed, non-executable. No measured CAD dimensions or validated simulation. Existing IDs preserved. See MBSE/requirements/scientific-simulation-sysml.md" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#FFF2CC;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="900" width="1480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Variante AM-S / AM-U6 / AM-B" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="M01 casco/chasis: RT-01/03" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="M02 rodaje/freno: RT-02" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="M03 propulsión marina: RT-04" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="M04 energía: RT-06" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="M05 supervisor: RT-05/07/08" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="M06 ocupante/carga: S/U6/B" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="M07 gemela: RT-09/10" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="630" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="composition (proposed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="composition (proposed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="composition (proposed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="composition (proposed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="composition (proposed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="composition (proposed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="composition (proposed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rtess-sim-8" name="08 - Simulation IBD">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="08 - Simulation IBD — RTESS-SIM-001" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#DDEBF7;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="SysML 1.6 views approximated in Draw.io; proposed, non-executable. No measured CAD dimensions or validated simulation. Existing IDs preserved. See MBSE/requirements/scientific-simulation-sysml.md" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#FFF2CC;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="900" width="1480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Runner: dueño del reloj | I-04" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Planta: dueño de x,v,E" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Supervisor: dueño del modo" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Manifiesto CAD: SI/frame/hash" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Operador simulado | I-01" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="Registro de evidencia | I-06" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="paso / handover" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="reloj" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="CAD-IF-05" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n3" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="intención" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n4" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="I-02: validez" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="I-03: límites" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n2" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="métricas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n1" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="trazas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n2" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rtess-sim-9" name="09 - Scientific constraints">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="09 - Scientific constraints — RTESS-SIM-001" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#DDEBF7;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="SysML 1.6 views approximated in Draw.io; proposed, non-executable. No measured CAD dimensions or validated simulation. Existing IDs preserved. See MBSE/requirements/scientific-simulation-sysml.md" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#FFF2CC;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="900" width="1480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="RT-SIM-01: hipótesis y unidades SI" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="m, CG, geometría y rho" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="B = rho g V; B - mg = 0" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="m dv/dt = T - D; D = rho Cd A v|v|/2" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="dE/dt = -Pneto; térmica concentrada" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="RT-SIM-03/05: error, sensibilidad, validez" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="inputs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="hidrostática" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="dinámica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n1" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="comparación" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n2" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="convergencia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n3" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="balance" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rtess-sim-10" name="10 - Verification activity">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="10 - Verification activity — RTESS-SIM-001" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#DDEBF7;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="1480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="SysML 1.6 views approximated in Draw.io; proposed, non-executable. No measured CAD dimensions or validated simulation. Existing IDs preserved. See MBSE/requirements/scientific-simulation-sysml.md" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#FFF2CC;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="50" y="900" width="1480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Fijar variante y manifiesto" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Ejecutar MIL / casos de fallo" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Comparar referencia y h,h/2,h/4" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Revisar errores y guards" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Datos independientes: validar dominio" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="Sin datos: físicamente no validado" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="400" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="RTESS-SIM-002: implementar fixture" style="rounded=1;whiteSpace=wrap;html=0;fontSize=18;fillColor=#EAF4FA;strokeColor=#426A84;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="RT-SIM-01/02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="RT-SIM-03/04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="evidencia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="datos suficientes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="datos ausentes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n3" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="siguiente iteración" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=14;endArrow=block;" edge="1" parent="1" source="n5" target="n6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
